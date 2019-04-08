@@ -5,7 +5,7 @@ body {
 }
 
 article {
-    width: 1170px;
+    width: 1024px;
     margin: 0 auto;
     position: relative;
 }
@@ -42,6 +42,7 @@ img {
     color: #EFE8F2;
     opacity: .3;
     padding: 0 5px;
+    cursor: pointer;
 }
 
 .active {
@@ -63,6 +64,7 @@ img {
     padding: 0 25px;
     margin: 20px 50px 0;
     box-shadow: 0 0 6px #2e2e2e;
+    cursor: pointer;
 }
 
 .headline {
@@ -215,14 +217,28 @@ textarea#text{
 
 .footer-pages {
     color: #0A1683;
-    padding: 0 0 10px;
+    padding: 0;
+    margin: 0 auto 10px 0;
 }
 
 .right {
     text-align: right;
+    margin: 0 0 10px auto;
 }
 
 .copyright {
     color: #bcbcbc;
     margin: 0;
+}
+
+.pages:hover, .lang:hover {
+    box-shadow: 0 3px 0 #efe8f2;
+}
+
+.footer-pages:hover {
+    box-shadow: 0 3px 0 #8915B2;
+}
+
+.download:hover {
+    background: #4e9b43;
 }
